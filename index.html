@@ -3,45 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>drop down</title>
  <link rel="stylesheet" href="./src/output.css">
     <link rel ="stylesheet"  href="./node_modules//bootstrap//dist/css//bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-      <!-- bootstrap table -->
-       <table class=" rounded-2  table-striped table-bordered table-hover table-sm  table-responsive  table-primary w-50 mx-auto mt-5 p-2 ">
-            
-           <thead>
-            <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>email</th>
-            </tr>
-              
-           </thead>
-           <tbody>
-            <tr>
-                <td>1</td>
-                <td>surafel</td>
-                <td>sura@gmail.com</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>abel</td>
-                <td>abel@gmail.com</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>nahome</td>
-                <td>nahom@gmail.com</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>beruk</td>
-                <td>beruk@gmail.com</td>
-            </tr>
-           </tbody>
-       </table>
+    <h1>dropdown in bootstrap</h1>
+      <!-- dropdown -->
+       <div class="dropdown">
+        <button class ="btn btn-primary dropdown-toggle"   dat-bs-toggle="dropdown">
+            Dropdown button
+        </button>
+               
+        
+        <ul class="dropdown-menu" >
+            <li> <a href='#' class="dropdown-item">Menu</a> </li>
+            <li><a href='#' class="dropdown-item">about </a></li>
+            <li><a href='#' class="dropdown-item">contact </a></li>
+        </ul>
+       </div>
+      
 </body>
 </html>
