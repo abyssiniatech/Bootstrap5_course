@@ -3,20 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>drop down</title>
+    <title>bootstrap grid</title>
  <link rel="stylesheet" href="./src/output.css">
     <link rel ="stylesheet"  href="./node_modules//bootstrap//dist/css//bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- containers in bootstrap -->
-     <h2 class="text-center bg-md-primary">Containers in bootstrap</h2>
-    <div class="container-fluid bg-danger">fluid</div>
-           <div class="container bg-black" >container</div>
-           <div class="bg-primary container-sm">small</div>
-           <div class="bg-danger container-md">middium</div>
-           <div class="bg-success container-">large</div>
-           <div class="bg-secondary container-xl">extra large</div>
-           <div class="bg-dark container">extra extra large</div>
+     <!-- grid in bootstrap -->
+      <h1 class="bg-info rounded text-center p-2 mt-4 container">Bootstrap Grid Layout</h1>
+      <!-- one columns -->
+       <div class="container">
+      <div class="row">
+        <div class="col bg-primary">1</div>
+        <div class="col bg-secondary">1</div>
+        <div class="col bg-info">1</div>
+        <div class="col bg-primary">1</div>
+        <div class="col bg-secondary">1</div>
+        <div class="col bg-info">1</div>
+        <div class="col bg-primary">1</div>
+        <div class="col bg-secondary">1</div>
+        <div class="col bg-info">1</div>
+        <div class="col bg-primary">1</div>
+        <div class="col bg-secondary">1</div>
+        <div class="col bg-info">1</div>
+    </div>
+    <hr>
+    <!-- six columns -->
+    <div class="row">
+    <div class="col bg-success">2</div>
+    <div class="col bg-info">2</div>
+    <div class="col bg-secondary">2</div>
+    <div class="col bg-success">2</div>
+    <div class="col bg-info">2</div>
+    <div class="col bg-secondary">2</div>
+</div>
+
+<hr>
+<!-- three cols -->
+ <div class="row bg-light">
+     <div class="col bg-secondary">3</div>
+     <div class="col bg-primary">3</div>
+     <div class="col bg-info">3</div>
+     <div class="col bg-danger">3</div>
+ </div>
+      <hr>
+      <!-- 4 cols -->
+      <div class="row bg-light-subtle">
+        <div class="col bg-secondary">4</div>
+        <div class="col bg-primary">4</div>
+        <div class="col bg-info">4</div>
+    
+    </div>
+       <hr>
+       <!-- sex cols -->
+    <div class="row bg-light">
+        <div class="col bg-danger">6</div>
+        <div class="col bg-secondary">6</div>
+    </div>
+    <hr>
+    <!-- 12 cols -->
+     <div class="row">
+          <div class="col bg-danger text-white text-center">12</div>
+     </div>
+      <hr>
+     <!-- cobmination cols -->
+      <div class="row bg-light">
+      <div class="col-sm-12-primary col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-primary">one</div>
+      <div class="col-sm-12-primary col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-danger">one</div>
+      <div class="col-sm-12-primary col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-success">one</div>
+      <div class="col-sm-12-primary col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-secondary">one</div>
+      </div>
+    </div>
 </body>
 </html>
